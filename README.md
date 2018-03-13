@@ -18,6 +18,9 @@ Free Book is a tiny script to obtain information about the free book of the day 
 
 ## Tips
 
-Contact my at lirc@gmail.com if you have any question.
+-To obtain the book just go to the page below and download it:
+https://www.packtpub.com/packt/offers/free-learning
+
+-Contact my at lirc@gmail.com if you have any question.
 
 

@@ -55,4 +55,4 @@ if __name__ == "__main__":
 
     obtain_book = Book()
     book = obtain_book.run()
-    print book
+    print "\nFREE BOOK FOR TODAY\n" + book
