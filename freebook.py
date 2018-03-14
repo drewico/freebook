@@ -36,11 +36,14 @@ class Book(object):
 
         title = info.find("div", "dotd-title")
         details = info.find("div", "")
+        more_details = info.find("ul", "")
 
         if details is None or title is None:
             return "There are not free books for today :("
-
-        return "\nTitle: " + title.text.strip() + "\n" + "Description: " + details.text.strip()
+        if more_details is None:
+            return "\nTitle: " + title.text.strip() + "\n\nDescription: " + details.text.strip()
+        else:
+            return "\nTitle: " + title.text.strip() + "\n\nDescription: " + details.text.strip() + "\n" + more_details.text.strip()
 
     def run(self):
         """
